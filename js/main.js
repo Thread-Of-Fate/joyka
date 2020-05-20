@@ -50,12 +50,18 @@ $(function(){
  });
  
  $('#create-1').click(function(){
- 	$('#create-1').toggleClass('active');
+ 	$('#create-1').addClass('active');
+  $('#create-2').removeClass('active');
+  $('#create-3').removeClass('active');
  });
  $('#create-2').click(function(){
- 	$('#create-2').toggleClass('active');
+  $('#create-1').removeClass('active');
+  $('#create-2').addClass('active');
+  $('#create-3').removeClass('active');
  });
  $('#create-3').click(function(){
- 	$('#create-3').toggleClass('active');
+  $('#create-1').removeClass('active');
+  $('#create-2').removeClass('active');
+  $('#create-3').addClass('active');
  });
 });

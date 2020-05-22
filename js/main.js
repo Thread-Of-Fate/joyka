@@ -4,7 +4,6 @@ $(function(){
  	dots: true,
  	arrows: true,
  	centerMode: true,
- 	centerPadding: '140px',
 	slidesToShow: 1,
 	slidesToScroll: 1,
  	prevArrow: '<img class="slider-arrows arrow-left" src="img/arrow-left.svg" alt=""></img>',
@@ -52,16 +51,16 @@ $(function(){
  $('#create-1').click(function(){
  	$('#create-1').addClass('active');
   $('#create-2').removeClass('active');
-  $('#create-3').removeClass('active');
+ // $('#create-3').removeClass('active');
  });
  $('#create-2').click(function(){
   $('#create-1').removeClass('active');
   $('#create-2').addClass('active');
-  $('#create-3').removeClass('active');
+ // $('#create-3').removeClass('active');
  });
- $('#create-3').click(function(){
-  $('#create-1').removeClass('active');
-  $('#create-2').removeClass('active');
-  $('#create-3').addClass('active');
- });
+ // $('#create-3').click(function(){
+ //  $('#create-1').removeClass('active');
+ //  $('#create-2').removeClass('active');
+ //  $('#create-3').addClass('active');
+ // });
 });

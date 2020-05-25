@@ -63,4 +63,11 @@ $(function(){
  //  $('#create-2').removeClass('active');
  //  $('#create-3').addClass('active');
  // });
+
+  $('.data-agreement__link').click(function(){
+    $('.modal-agreement').addClass('active');
+  });
+  $('.return-link').click(function(){
+    $('.modal-agreement').removeClass('active');
+  });
 });
